@@ -186,3 +186,7 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
+
+@utility clip-hero {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 110px), calc(100% - 110px) 100%, 0 100%);
+}
