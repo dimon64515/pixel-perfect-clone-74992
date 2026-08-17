@@ -176,7 +176,7 @@ function Index() {
     <main className="bg-background">
       {/* HERO */}
       <section className="relative bg-ink">
-        <div className="relative">
+        <div className="clip-hero relative">
           <img
             src={heroFactory}
             alt="EnergySteel manufacturing plant with glass facade"
